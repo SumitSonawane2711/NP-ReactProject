@@ -23,6 +23,27 @@ const initialCardData = [
     imageUrl: 'https://via.placeholder.com/150',
     likes: 0,
   },
+
+  {
+    id: 4,
+    title: '24/7 Support',
+    description: 'Our team is here to assist you anytime.',
+    imageUrl: 'https://via.placeholder.com/150',
+    likes: 0,
+  },{
+    id: 5,
+    title: '24/7 Support',
+    description: 'Our team is here to assist you anytime.',
+    imageUrl: 'https://via.placeholder.com/150',
+    likes: 0,
+  },
+  {
+    id: 5,
+    title: '24/7 Support',
+    description: 'Our team is here to assist you anytime.',
+    imageUrl: 'https://via.placeholder.com/150',
+    likes: 0,
+  },
 ];
 
 const HomePage = () => {
