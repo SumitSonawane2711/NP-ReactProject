@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Navbar from './components/navbar';
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -41,6 +42,8 @@ function App() {
 
 
   return (
+    <>
+    <Navbar/>
   <div className="p-4 max-w-2xl mx-auto bg-red-300">
      <h1 className="text-2xl font-bold mb-4">Products</h1>
 
@@ -74,6 +77,7 @@ function App() {
       ))}
     </div>
   </div>
+  </>
   )
 }
 

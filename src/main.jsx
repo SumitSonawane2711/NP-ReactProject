@@ -3,10 +3,17 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import HomePage from './pages/home.jsx'
+import Navbar from './components/navbar.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Footer from './components/Footer.jsx'
+
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Navbar/>
     <HomePage/>
-  </StrictMode>,
+    <Footer/>
+  </StrictMode>
 )
